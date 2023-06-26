@@ -50,7 +50,7 @@ void B::bb() {
   cin >> r;
   B * ob = new B(0, r);
   A * obr = ob;
-  16 B * temp = 0;
+  B * temp = 0;
   for (int i = 0;; i++) {
     cin >> pr >> name;
     if (pr == name)
